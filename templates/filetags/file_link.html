@@ -1,0 +1,8 @@
+{% if file %}
+<div class="file">
+	<a href="{{ file.get_absolute_url }}">
+		<span class="file-download-icon"></span>
+		<span class="file-filename">{{ file.name }}</span>
+	</a>
+</div>
+{% endif %}
